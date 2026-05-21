@@ -1,7 +1,7 @@
 # Ride Sharing Data Analysis
 
 ## Overview
-Performed exploratory data analysis on ride-sharing data using Python in Google Colab. Analyzed trip trends, cancellation patterns, revenue distribution, customer behavior, and city-level performance using multiple visualizations.
+Performed exploratory data analysis on ride-sharing data using Python in Google Colab. Analyzed trip trends, cancellation patterns and city-level performance using multiple visualizations.
 
 ## Tools Used
 - Python
