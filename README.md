@@ -1,26 +1,108 @@
-# Ride Sharing Data Analysis
+# Ride Demand and Cancellation Analysis
 
-## Overview
-Performed exploratory data analysis on ride-sharing data using Python in Google Colab. Analyzed trip trends, cancellation patterns and city-level performance using multiple visualizations.
+## Project Overview
+
+This project analyzes ride-sharing data to understand demand patterns, cancellation behavior, and operational performance across different cities and time periods. The analysis helps identify supply-demand imbalances, peak demand hours, and areas where operational improvements can reduce ride cancellations and improve customer experience.
+
+## Business Problem
+
+Ride-sharing platforms often face challenges such as:
+
+* High ride cancellation rates.
+* Driver shortages during peak demand periods.
+* Uneven demand across cities.
+* Supply-demand mismatches affecting ride fulfillment.
+* Reduced customer satisfaction due to ride unavailability.
+
+Without proper analysis, these issues can negatively impact revenue, customer retention, and operational efficiency.
+
+## Project Objective
+
+* Analyze ride demand across cities and time periods.
+* Identify cancellation trends and operational bottlenecks.
+* Evaluate city-wise ride fulfillment performance.
+* Understand the relationship between demand and cancellations.
+* Provide recommendations to improve driver allocation and reduce cancellations.
 
 ## Tools Used
-- Python
-- Google Colab
-- Pandas
-- Matplotlib
 
-## Key Analysis
-- Trip Trends
-- Cancellation Analysis
-- Revenue Distribution
-- City-wise Performance
-- Customer Ratings Analysis
+* Python
+* Pandas
+* Matplotlib
+* Google Colab
 
-## Project Preview
+## Dashboard Visual Analysis
 
-### Trip Trend Analysis
-<img width="571" height="525" alt="City_Wise_Rides" src="https://github.com/user-attachments/assets/4d62ed31-5daa-4f62-844d-be9d3a21ec31" />
+### City-wise Ride Demand
 
+#### Purpose
 
-### Cancellation Analysis
-<img width="607" height="469" alt="Hourly_rides vs Cancellations" src="https://github.com/user-attachments/assets/7a535890-d866-40c9-87fc-fe6b0f907126" />
+Compares ride demand across different cities to identify major markets and areas with lower platform usage.
+
+<img width="571" height="525" alt="image" src="https://github.com/user-attachments/assets/e106d0f7-864b-46e8-afa3-5dc43b2525f2" />
+
+### Hour-wise Ride Demand and Cancellation Trend
+
+#### Purpose
+
+Analyzes ride demand and cancellations throughout the day to identify peak demand periods and operational pressure points.
+
+<img width="607" height="469" alt="image" src="https://github.com/user-attachments/assets/b8ed7752-0767-4618-b3da-f5f800fab956" />
+
+### City-wise Cancellations
+
+#### Purpose
+
+Shows the total number of cancelled rides across cities to identify locations experiencing ride fulfillment challenges.
+
+<img width="570" height="540" alt="image" src="https://github.com/user-attachments/assets/42359ee6-96d5-4dd3-a0b9-bf3e878b5d2a" />
+
+### Ride Type-wise Cancellations
+
+#### Purpose
+
+Compares cancellations across ride categories to determine whether specific ride types contribute disproportionately to cancellation volume.
+
+<img width="570" height="503" alt="image" src="https://github.com/user-attachments/assets/aedaa5fd-dcb7-4ff8-a5fe-3743b2399f85" />
+
+### City-wise Cancellation Rate
+
+#### Purpose
+
+Measures the percentage of rides cancelled in each city to evaluate operational performance independent of ride volume.
+
+<img width="570" height="540" alt="image" src="https://github.com/user-attachments/assets/30e22e8f-b92a-4a8e-9526-04b6d73afc82" />
+
+### Hour-wise Cancellation Rate
+
+#### Purpose
+
+Tracks cancellation rates throughout the day to identify periods where driver availability may not be sufficient to meet demand.
+
+<img width="570" height="469" alt="image" src="https://github.com/user-attachments/assets/14ce024f-c0eb-42f9-83cc-8fe96725e35f" />
+
+## Key Findings
+
+* Hyderabad shows the lowest ride demand but experiences a relatively high cancellation rate, indicating supply-demand imbalance.
+
+* Ride demand peaks during evening commute hours, reflecting increased transportation needs after work hours.
+
+* Cancellation rates are highest during morning commute periods, indicating insufficient ride availability during peak hours.
+
+* Bangalore demonstrates comparatively stronger ride fulfillment performance with lower cancellation rates.
+
+## Business Recommendations
+
+* Increase driver availability during peak demand periods, particularly morning and evening commute hours.
+
+* Implement incentive programs to encourage driver participation during low-supply periods.
+
+* Improve driver allocation strategies in cities with higher cancellation rates.
+
+## Business Impact
+
+* Supports data-driven driver allocation and workforce planning.
+
+* Enables proactive actions to reduce cancellations and improve customer experience.
+
+* Assists ride-sharing platforms in optimizing supply-demand balance across cities and time periods.
