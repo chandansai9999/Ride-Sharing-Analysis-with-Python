@@ -30,6 +30,25 @@ Without proper analysis, these issues can negatively impact revenue, customer re
 * Pandas
 * Matplotlib
 * Google Colab
+  
+## Dataset
+
+This project uses a **ride-sharing dataset** containing **1,200 ride records** designed to simulate real-world ride-hailing operations.
+
+The dataset includes information such as:
+- Ride ID
+- Date & Time
+- City
+- Pickup & Drop Location
+- Distance
+- Fare Amount
+- Surge Multiplier
+- Customer Rating
+- Ride Status
+- Payment Method
+- Ride Type
+
+**Dataset Location:** [ride_sharing_dataset.xlsx](Ride_Sharing_Dataset/ride_sharing_dataset.xlsx)`
 
 ## Dashboard Visual Analysis
 
