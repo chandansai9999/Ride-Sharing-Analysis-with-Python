@@ -101,7 +101,7 @@ Tracks cancellation rates throughout the day to identify periods where driver av
 * Implement incentive programs to encourage driver participation during low-supply periods.
 * Improve driver allocation strategies in cities with higher cancellation rates.
 
-## Business Impacts
+## Business Impact
 
 * Supports data-driven driver allocation and workforce planning.
 * Enables proactive actions to reduce cancellations and improve customer experience.
